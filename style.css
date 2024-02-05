@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 7px -2px rgb(0, 0, 0, 0.5);
+    padding-inline: 1rem;
+}
+header img{
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+header .button button{
+    margin-inline: 15px;
+    background: white;
+    box-shadow: 0 0 5px -2px black;
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.title{
+    background: #ffe2f2;
+    color: black;
+    font-size: 20px;
+    padding-block: 15px;
+    margin-top: 10px;
+}
+.main{
+    height: 60vh;
+    text-align: center;
+
+}
+.main img{
+    margin-top: 20px;
+    width: 90%;
+    height: 50vh;
+    object-fit: cover;
+}
+.footer fieldset{
+    height: 120px;
+    padding: 20px;
+}
