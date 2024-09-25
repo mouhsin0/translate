@@ -20,7 +20,7 @@ english.addEventListener("click", ()=>{
 })
 function website(translate){
     if(translate == "arabic"){
-        title.innerHTML = "مرحبا اسمي ابراهيم احب البرمجة"
+        title.innerHTML = "مرحبا اسمي ابراهيم محسين احب البرمجة"
         address.innerHTML = "البريد الالكتروني: private.mouhsine@gmail.com"
         about.innerHTML = "اتصل بنا"
         set.style.direction = "rtl"
